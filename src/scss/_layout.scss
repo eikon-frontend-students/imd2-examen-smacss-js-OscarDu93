@@ -1,0 +1,24 @@
+.l-header {
+  display: flex;
+  height: 120px;
+  padding: 0px 52px 0px 53px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background: var(--dark-blue, #005564);
+}
+
+.l-header.is-active {
+  background: var(--yellow, #fce757);
+}
+
+.l-main {
+  flex-shrink: 0;
+  align-self: stretch;
+}
+
+.l-footer {
+  height: 325px;
+  flex-shrink: 0;
+  background: var(--light-blue, #c0d9d9);
+}

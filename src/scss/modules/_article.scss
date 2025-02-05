@@ -1,0 +1,72 @@
+.article-title {
+  color: var(--dark-blue, #005564);
+  font-family: "Francois One";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.article {
+  display: flex;
+  width: 416px;
+  padding: 0px 40px 20px 40px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background: var(--green, #a0d187);
+  height: 467;
+  margin-bottom: 60px;
+}
+
+.onions.is-active {
+  height: auto;
+  background: var(--red, #cf9697);
+}
+
+.herby.is-active {
+  height: auto;
+  background: var(--green, #a0d187);
+}
+
+.smooth.is-active {
+  height: auto;
+  background: var(--light-blue, #c0d9d9);
+}
+
+.article-name {
+  color: var(--dark-blue, #005564);
+  text-align: center;
+  font-family: "Francois One";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.article-text {
+  color: var(--dark-blue, #005564);
+  text-align: center;
+  font-family: "Nunito Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.article-info {
+  color: var(--dark-blue, #005564);
+  text-align: center;
+  font-family: "Nunito Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0;
+}
+
+.article-info.is-active {
+  opacity: 1;
+}
